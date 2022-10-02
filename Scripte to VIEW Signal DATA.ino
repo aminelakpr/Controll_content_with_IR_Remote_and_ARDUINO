@@ -1,3 +1,5 @@
+// watch the TUTO-video https://youtu.be/ejY6sIXKbmI
+// by ADDEROS
 #include <IRremote.h>
 IRrecv recv(A2);
 void setup() {
@@ -12,5 +14,4 @@ if(recv.decode()){
 Serial.println(recv.decodedIRData.decodedRawData, HEX);
 delay(50);
 recv.resume();
-} 
-}
+}}
