@@ -1,3 +1,5 @@
+// watch the tutorial video https://youtu.be/ejY6sIXKbmI
+// by ADDEROS
 #include <IRremote.h>
 IRrecv recv(6);
 void setup() {
